@@ -1,0 +1,27 @@
+Caption{
+    color:lightBlue;
+    font-size:18pt;
+    text-decoration:underline;
+    text-shadow:1px 1px gray;
+}
+td{
+    color:red;
+}
+ Caption{
+    color:rgb(238, 169, 41);
+    font-size:18pt !important;
+    text-decoration:underline;
+    text-shadow:1px 1px gray;
+ }
+td{
+    color:red;
+}
+a{text-decoration:none;
+}
+a:hover{
+    margin-left:15px;
+    text-shadow:3px 3px gray;
+    transition: 2s;
+    color:whitesmoke;
+    text-decoration:underline;
+}

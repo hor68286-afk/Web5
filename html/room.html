@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="icon" href="../src/img/Original Logo.png" />
+    <link rel="stylesheet" href="../style/main.css" />
+</head>
+<body>
+    <form>
+        <fieldset>
+            <table cellpadding="10" >
+                <caption>
+                    <h3><i class="fa-solid fa-bed-pulse"></i> Add New Room </h3>
+                </caption>
+                <tbody>
+                    <tr>
+                        <td>Room Number</td>
+                        <td><input type="text" name="room_number" placeholder="Type room number"></td>
+                    </tr>
+                    <tr>
+                        <td>Room Price</td>
+                        <td><input type="number" name="price" placeholder="Enter price"></td>
+                    </tr>
+                    <tr>
+                        <td>Room Type</td>
+                        <td>
+                            <select name="room_type">
+                                <option value="single">Single Room</option>
+                                <option value="double">Double Room</option>
+                                <option value="family">Family Room</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Room Note</td>
+                        <td><textarea name="description" cols="50" rows="5"></textarea></td>              
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>
+                            <select name="status">
+                                <option value="available">Available</option>
+                                <option value="maintenance">Maintenance</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Insert">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>   
+</body>
+</html>
